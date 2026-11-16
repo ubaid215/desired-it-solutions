@@ -13,7 +13,7 @@ export function SiteFooter() {
       <div className="mx-auto max-w-7xl px-5 pb-8 pt-20 sm:px-8">
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-4">
-            <Logo />
+            <Logo className="h-10 sm:h-12" />
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-muted-dark">{site.tagline}</p>
             <Link
               href="/contact"

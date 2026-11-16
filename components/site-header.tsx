@@ -34,12 +34,12 @@ export function SiteHeader() {
       <div
         className={`mx-auto flex h-14 max-w-7xl items-center justify-between rounded-full pl-5 pr-2 transition-[background-color,box-shadow,color] duration-500 ease-out-quint ${
           solid
-            ? "bg-paper/85 text-ink shadow-[0_8px_30px_-12px_rgba(14,17,22,0.25)] ring-1 ring-ink/5 backdrop-blur-xl"
+            ? "bg-ink/85 text-white shadow-[0_8px_30px_-12px_rgba(14,17,22,0.45)] ring-1 ring-white/10 backdrop-blur-xl"
             : "bg-transparent text-white"
         }`}
       >
         <Link href="/" aria-label={`${site.name} home`} transitionTypes={[navDirection(pathname, "/")]}>
-          <Logo />
+          <Logo priority className="h-7 sm:h-8" />
         </Link>
 
         <nav aria-label="Main" className="hidden md:block">

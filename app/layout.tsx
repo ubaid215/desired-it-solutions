@@ -32,6 +32,9 @@ export const metadata: Metadata = {
   },
   description:
     "Websites, apps, custom software, SEO and AI automation for Australian businesses. Fixed-price quotes, on-time delivery and real results. Book a free strategy call.",
+  appleWebApp: {
+    title: site.name,
+  },
   openGraph: {
     siteName: site.name,
     locale: "en_AU",
