@@ -10,7 +10,7 @@ import { Logo } from "./logo";
 export function SiteFooter() {
   return (
     <footer className="noise sticky bottom-0 z-0 overflow-hidden bg-ink text-white">
-      <div className="mx-auto max-w-7xl px-5 pb-8 pt-20 sm:px-8">
+      <div className="mx-auto max-w-7xl px-5 pb-8 pt-28 sm:px-8 sm:pt-32">
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-4">
             <Logo className="h-10 sm:h-12" />
@@ -70,7 +70,7 @@ export function SiteFooter() {
       </div>
 
       <div aria-hidden="true" className="pointer-events-none select-none px-3 leading-[0.78]">
-        <span className="block whitespace-nowrap text-center font-display text-[24vw] font-extrabold tracking-[-0.06em] text-white/[0.06]">
+        <span className="block whitespace-nowrap text-center font-display text-[12vw] font-extrabold tracking-[-0.05em] text-white/[0.05]">
           desired<span className="text-lime/30">.</span>
         </span>
       </div>
