@@ -36,6 +36,12 @@ export function ContactForm() {
       ) : (
         <motion.form key="form" action={action} noValidate className="rounded-[28px] bg-white/60 p-6 ring-1 ring-ink/5 sm:p-10">
           <h2 className="font-display text-2xl font-bold">Tell us about your project</h2>
+          <div aria-hidden="true" className="absolute -left-[9999px] h-0 w-0 overflow-hidden">
+            <label>
+              Leave this field empty
+              <input type="text" name="company_website" tabIndex={-1} autoComplete="off" />
+            </label>
+          </div>
           <div className="mt-8 grid gap-5 sm:grid-cols-2">
             {[
               { n: "name", l: "Full name", t: "text", ac: "name", req: true },
