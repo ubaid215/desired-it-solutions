@@ -20,7 +20,7 @@ export const site = {
   phoneHref: "tel:+61475434370",
   mobile: "+61 475 434 370",
   email: "info@desireditsolutions.com.au",
-  supportEmail: "support@desireditsolutions.com.au",
+  supportEmail: "info@desireditsolutions.com.au",
   address: "14 Wormald Street, Symonston, Australian Capital Territory, 2609, Australia",
 } as const;
 
