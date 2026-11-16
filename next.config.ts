@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  allowedDevOrigins: ["uncured-snowshoe-trusting.ngrok-free.dev"], // add this line
   experimental: {
     agentFeedback: true,
   },
